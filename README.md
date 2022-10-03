@@ -106,19 +106,6 @@ You can run _spotDL_ as a package if running it as a script doesn't work:
 python -m spotdl [urls]
 ```
 
-### Docker usage
-
-1. Build image:
-```bash
-docker build --rm -t spotdl .
-```
-
-2. Launch container with spotDL parameters (see section below). You need to create mapped volume to access song files
-```bash
-docker run --rm -v ~/music-spotdl:/music --name spotdl spotdl [trackUrl]
-```
-
-
 ---
 
 ### Further information can be found in our documentation
